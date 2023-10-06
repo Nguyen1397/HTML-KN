@@ -1,46 +1,76 @@
 body {
+    /* Kích cỡ văn bản */
     font-size: 80%;
+    /* Địnhn dạng phông chữ */
     font-family: 'Courier New', Courier, monospace;
+    /* Khoảng cách giữa các kí tự */
     letter-spacing: 0.15em;
+    /* Màu nền */
     background-color: #efefef;
 }
 #page {
+    /* Quy định độ rộng tối đa */
     max-width: 940px;
+    /* Quy định độ rộng tối thiểu */
     min-width: 720px;
+    /* Định dạng không gian xung quanh bên ngoài đường viền của phần tử */
     margin: 10px auto 10px auto;
+    /* Định dạng không gian xung quanh bên trong đường viền của phần tử */
     padding: 20px;
+    /* Định dạng đường viền của phần tử */
     border: 4px double #000;
+    /* Màu nền */
     background-color: #ffffff;
 }
 #logo {
+    /* Độ rộng phần tử */
     width: 150px;
+    /* Định dạng lề */
     margin: 10px auto 25px auto;
 }
 ul {
+    /* Độ rộng phần tử */
     width: 570px;
+    /* Không gian bên trong đường viền */
     padding: 150x;
+    /* Không gian bên ngoài đường viền  */
     margin: 0px auto 0px auto;
+    /* Định dạng đường viền trên */
     border-top: 2px solid #000;
+    /* Định dạng đường viền dưới */
     border-bottom: 1px solod #000;
+    /* Căn chỉnh chiều ngang của văn bản */
     text-align: center;
 }
 li {
+    /* Chỉ định có hiển thị ra màn hình hay không (block/inline) */
     display: inline;
+    /* Không gian ngoài đường viền */
     margin: 0px 3px;
 }
 p {
+    /* Căn chỉnh chiều ngang văn bản */
     text-align: center;
+    /* Độ rộng phần tử */
     width: 600px;
+    /* Không gian bên ngoài đường viền */
     margin: 20px auto 20px;
+    /* Độ đậm của văn bản */
     font-weight: normal;
 }
 a {
+    /* Màu của văn bản */
     color: #000000;
+    /* Chỉ định chữ hoa và chữ thường của văn bản */
     text-transform: uppercase;
+    /* Trang trí văn bản */
     text-decoration: none;
+    /* Không gian bên trong đường viền */
     padding: 6px 18px 5px 18px;
 }
+/* Xác định vị trí ta đang "ở" hiện tại */
 a:hover,
+/* Định dạng của a ở trên */
 a.on {
     color: #cc3333;
     background-color: #ffffff;
