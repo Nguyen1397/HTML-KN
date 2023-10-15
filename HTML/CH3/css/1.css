@@ -1,0 +1,22 @@
+body
+{
+    background-color: black;
+}
+ul, ol
+{
+    color:bisque;
+}
+h2
+{
+    color:bisque;
+}
+h1
+{
+    padding-left: 200px;
+    color:bisque;
+}
+p
+{
+    color:bisque;
+    border: 200px solid powerblue;
+}
