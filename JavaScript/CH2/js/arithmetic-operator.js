@@ -11,10 +11,10 @@ var total = subtotal + shipping;// Total is 77
 var elSub = document.getElementById('subtotal');
 elSub.textContent = subtotal;
 
-var elSub = document.getElementById('shipping');
+var elShip = document.getElementById('shipping');
 elShip.textContent = shipping;
 
-var elSub = document.getElementById('subtotal');
+var elTotal = document.getElementById('total');
 elTotal.textContent = total;
 
 /*
